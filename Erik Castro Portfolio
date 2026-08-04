@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation Architect | Enterprise Systems</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#0a0a0c',
+                        carddark: '#121318',
+                        goldaccent: '#d4af37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-obsidian text-gray-100 antialiased selection:bg-goldaccent selection:text-black font-sans">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-obsidian/80 backdrop-blur-md border-b border-gray-800/50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <span class="text-lg font-bold tracking-wider uppercase text-white">Architect<span class="text-goldaccent">.</span></span>
+            <a href="#contact" class="px-5 py-2.5 text-xs font-semibold uppercase tracking-widest text-black bg-goldaccent hover:bg-white transition-all duration-300 rounded-sm">
+                Book Audit
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen pt-32 pb-20 flex items-center justify-center px-6 relative overflow-hidden">
+        <!-- Subtle background glow -->
+        <div class="absolute w-96 h-96 bg-goldaccent/5 rounded-full blur-3xl -top-20 -left-20 pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <div class="inline-block mb-4 px-3 py-1 border border-goldaccent/30 rounded-full text-xs font-mono tracking-widest text-goldaccent uppercase bg-goldaccent/5">
+                AI Automation Architect • $70/hr
+            </div>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                Most businesses are drowning in manual work. <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-goldaccent">I build the machines that set them free.</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+                Specializing in end-to-end AI automation systems that turn complex, 10-hour manual processes into 10-second background tasks. Scale your output, not your overhead.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#contact" class="w-full sm:w-auto px-8 py-4 text-sm font-semibold tracking-widest uppercase bg-white text-black hover:bg-goldaccent transition-all duration-300 rounded-sm shadow-2xl">
+                    Let's Audit Your Bottlenecks
+                </a>
+                <a href="#services" class="w-full sm:w-auto px-8 py-4 text-sm font-semibold tracking-widest uppercase border border-gray-800 text-gray-300 hover:border-gray-500 transition-all duration-300 rounded-sm">
+                    Explore Architecture
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
